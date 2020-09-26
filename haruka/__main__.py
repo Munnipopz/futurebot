@@ -142,9 +142,9 @@ Click Help button to find out more about how to use me to my full potential.\n\n
 Follow [Zains Projects](https://t.me/zainsprojects) ( @ZainsProjects ) if you want to keep up with the news, updates and bot downtime!\n\n\
 \n\nWant to add me to your group? [Click here!](t.me/HarukaAyaBot?startgroup=true)"
 
-    keyboard += [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
-        InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
-    keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_")]]
+    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
+    keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
+    keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
 
     update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
