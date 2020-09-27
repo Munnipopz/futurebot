@@ -143,6 +143,10 @@ def send_start(bot, update):
 
         InlineKeyboardButton(text="🎙 Language 🎙", callback_data="set_lang_")]]
 
+    keyboard = [[InlineKeyboardButton(text="ℹ️ Informations ℹ️", url="https://t.me/MalayaliAll/32"),
+
+        InlineKeyboardButton(text="🎙 Language 🎙", callback_data="set_lang_")]]
+
     keyboard += [[InlineKeyboardButton(text="🛠 Control panel 🛠", callback_data="cntrl_panel_M"), 
 
         InlineKeyboardButton(text="❔ More Help ❔", callback_data="help_back")]]
