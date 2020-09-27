@@ -149,7 +149,7 @@ def send_start(bot, update):
 
     keyboard += [[InlineKeyboardButton(text="🛠 olakkedemoode 🛠", callback_data="cntrl_panel_M"), 
 
-        InlineKeyboardButton(text="❔ More Help ❔", callback_data="help_back")]]
+        InlineKeyboardButton(text="❔ Share please ❔", url="https://t.me/share/url?url=https://t.me/ISLscore")]]
     
 
 
