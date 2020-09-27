@@ -143,13 +143,13 @@ def send_start(bot, update):
 
         InlineKeyboardButton(text="🎙 Language 🎙", callback_data="set_lang_")]]
 
-    keyboard += [[InlineKeyboardButton(text="🛠 Luangage 🛠", callback_data="cntrl_panel_M"), 
+    keyboard += [[InlineKeyboardButton(text="🛠 Controll panel 🛠", callback_data="cntrl_panel_M"), 
 
         InlineKeyboardButton(text="❔ More Help ❔", callback_data="help_back")]]
 
     keyboard += [[InlineKeyboardButton(text="💕 WHATSAPP 💕", url="http://api.whatsapp.com/send?=&text=https://t.me/ISLscore"), 
 
-        InlineKeyboardButton(text="🏡 Share please 🏡", url="https://t.me/share/url?url=https://t.me/ISLscore")]]
+        InlineKeyboardButton(text="🏡 Share Telegram 🏡", url="https://t.me/share/url?url=https://t.me/ISLscore")]]
     
 
 
