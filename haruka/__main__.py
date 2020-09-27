@@ -147,7 +147,7 @@ def send_start(bot, update):
 
         InlineKeyboardButton(text="❔ More Help ❔", callback_data="help_back")]]
 
-    keyboard += [[InlineKeyboardButton(text="🟢 WHATSAPP 🟢", url=""http://api.whatsapp.com/send?=&text=https://t.me/ISLscore"), 
+    keyboard += [[InlineKeyboardButton(text="💕 WHATSAPP 💕", url=""https://api.whatsapp.com/send?=&text=https://t.me/ISLscore"), 
 
         InlineKeyboardButton(text="🏡 Share please 🏡", url="https://t.me/share/url?url=https://t.me/ISLscore")]]
     
