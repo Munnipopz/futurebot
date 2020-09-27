@@ -143,9 +143,9 @@ def send_start(bot, update):
 
         InlineKeyboardButton(text="🎙 Language 🎙", callback_data="set_lang_")]]
 
-    keyboard = [[InlineKeyboardButton(text="ℹ️ Informations ℹ️", url="https://t.me/mazhatthullikal"),
+    keyboard += [[InlineKeyboardButton(text="🛠 olakkedemoode 🛠", callback_data="cntrl_panel_M"), 
 
-        InlineKeyboardButton(text="🎙 onlyme 🎙", callback_data="set_lang_")]]
+        InlineKeyboardButton(text="❔ More Help ❔", callback_data="help_back")]]
 
     keyboard += [[InlineKeyboardButton(text="🛠 olakkedemoode 🛠", callback_data="cntrl_panel_M"), 
 
